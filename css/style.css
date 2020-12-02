@@ -1,0 +1,270 @@
+*{
+margin: 0 auto;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'Roboto', sans-serif;
+} 
+.top{
+    background-color:#0A84CB;
+    padding-top: 12px;
+padding-bottom: 1px;
+}
+.top ul li a{
+    color:#FFFFFF;
+    padding: 0 7px;
+    text-decoration: none;
+}
+.top_left{
+    display: none;
+}
+
+.top_right{
+    text-align: center;
+}
+.navbar-toggler{
+    color: white;
+padding: 5px;
+border-radius: 0;
+}
+.hiring{
+    background-color: #F9F9F9;
+    padding-bottom: 40px;
+    margin: 0;
+}
+#brand{
+    margin-left: 2px;
+    font-size: 28px;
+}
+.hero_section{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url(../images/student-849825_1920.jpg)
+    no-repeat center;
+    background-size: cover;
+    height: 68vh;
+    width: 100%;
+}
+.hr_title{
+    padding-top: 92px;
+}
+.hero_section a{
+    border-radius: 0;
+padding: 9px 33px;
+color: white;
+}
+.services{
+    background-color: #F9F9F9;
+}
+.corporate-hiring i{
+    font-size: 41px;
+}
+.hvr-icon-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-icon-glow:hover, .hvr-icon-glow:focus, .hvr-icon-glow:active {
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.6);
+  }
+
+.card-title span{
+    color: #0A84CB;
+}
+#cardImage{
+    display: none;
+}
+#firstUl li a{
+    text-decoration: none;
+    color: black;
+}
+.articles img{
+    width: 280px;
+}
+.articles .card{
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+ .articles .card:hover,.articles .card:focus,.articles .card:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+  }
+.black{
+    background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.9)) ,url(../images/student-849825_1920.jpg)
+    no-repeat center;
+    background-size: cover;
+    height: 13vh;
+    width: 100%;
+}
+.black p{
+    padding-top: 16px;
+    font-size: 16px;
+}
+.blue{
+    background-color: #0A84CB;
+}  
+.news{
+    margin-top: 40px;
+}
+.para span:first-child{
+    padding-right: 9px;
+}
+.blue{
+    text-align: center;
+    padding: 17px;
+    margin-bottom: 0;
+}
+.blue_left li a{
+    color: wheat;
+    padding: 0 7px;
+    font-size: 20px;
+}
+.connection a{
+    color: #212529;;
+}
+.arrow a{
+    font-size: 35px;
+    color: wheat;
+    background-color: black;
+    padding: 0 14px;
+    opacity: 0.7;
+    position: fixed;
+    bottom: 0%;
+right: 2%;
+}
+.connection a,
+.black a,
+.hiring a{
+    text-decoration: none;
+}
+
+
+
+
+@media (min-width:768px)
+{
+    #cardlast{
+        margin-left: 33px;
+    }
+    .top_left ul li a i{
+        padding-right: 8px;
+    }
+}
+
+
+
+
+
+@media (min-width:992px)
+{
+    .top_left{
+        display: block;
+    }
+   #tell a{
+padding-right: 7px;
+    }
+    .top_right{
+        float: right;
+margin-top: -42px;
+    }
+    .top{
+        padding: 12px 100px 1px 100px;
+    }
+    #navbarNav{
+        margin-left: 72px;
+    }
+    
+    #brand {
+        margin-left: 84px;
+        font-size: 30px;
+    }
+        .hr_title{
+            padding-top: 120px;
+        }
+        .hr_title h2{
+            font-size: 43px;
+        }
+        .articles img{
+            max-width: 100%;
+        }
+       
+        #cardImage{
+            display: none;
+        }
+        #cardlast {
+            margin: 0 auto;
+        }      
+        .articles img{
+            width: 220px;
+        } 
+    .black p{
+        padding-top: 18px;
+        font-size: 25px;
+    }
+.contacts{
+    padding: 0 45px;
+}
+.blue{
+    text-align: left;
+}
+.blue_left li:last-child{
+    float: right;
+    margin-top: -26px;
+    margin-right: 69px;
+}
+
+}
+
+
+
+
+@media (min-width:1200px)
+{
+    #navbarNav {
+        margin-left: 401px;
+    }
+    #corp{
+        margin-right: -60px;
+    }
+    #card1{
+        flex-direction: row;
+        width: 62rem;
+    }
+    #cardImage{
+        width: 22rem;
+    height: 22rem;
+        display: inline-block;
+    }
+    .services{
+        padding: 0 54px;
+    }
+    .articles img{
+        width: 308px;
+    }
+    #article2{
+        margin: 0px -84px;
+    }
+    .para{
+        margin-left: 17px;
+    }
+    .black{
+        padding-top: 22px;
+    }
+    .black p{
+        padding-top: 0px;
+    }
+
+}
